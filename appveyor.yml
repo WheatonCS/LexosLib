@@ -22,6 +22,7 @@ test_script:
   - pytest --cov=./lexoslib
   - codecov
 
-
-build: off
+build:
+  # the install script
+  - python ./setup.py install
 

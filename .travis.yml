@@ -29,3 +29,5 @@ script:
   # unit testing
   - pytest --cov=./lexoslib
   - codecov
+  # build script
+  - python ./setup.py install
